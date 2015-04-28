@@ -9,6 +9,7 @@ $paginaData->css .="<link href='css/style.css' rel='stylesheet'/>";
 
 $paginaData->titel ="nieuwe website";
 $paginaData->content = "<h1>Hello world</h1>";
+$paginaData->content .= include_once "views/navigatie.php";
 
 
 
