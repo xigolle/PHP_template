@@ -9,7 +9,6 @@ $paginaData->css .="<link href='css/style.css' rel='stylesheet'/>";
 
 $paginaData->titel ="nieuwe website";
 $paginaData->content = "<h1>Hello world</h1>";
-<<<<<<< HEAD
 $userClicked = isset($_GET['pagina']);
 if ($userClicked){
 	$fileToLoad = $_GET['pagina'];
@@ -17,10 +16,7 @@ if ($userClicked){
 	$fileToLoad = 'zoeken';
 }
 $paginaData->content .=include_once "views/$fileToLoad.php"; 
-=======
 $paginaData->content .= include_once "views/navigatie.php";
-
->>>>>>> origin/master
 
 
 
